@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Grimstad</name>
+    <type>By</type>
+    <country>Norge</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="60" />
+    <location altitude="20" latitude="58.3415004320595" longitude="8.58713068423222" geobase="ssr" geobaseid="7667" />
+  </location>
+  <credit>
+    <!--For å bruke gratis værdata fra yr.no, MÅ du vise følgende tekst godt synlig på nettsiden din. Teksten skal være en lenke til URL-en som er spesifisert.-->
+    <!--Les mer om vilkår for bruk av gratis værdata + retningslinjer på 
+http://www.yr.no/verdata/ -->
+    <link text="Værvarsel fra yr.no, levert av Meteorologisk institutt og NRK" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/varsel.xml" />
+    <link id="overview" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/" />
+    <link id="hourByHour" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/time_for_time.html" />
+    <link id="weekend" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/helg.html" />
+    <link id="longTermForecast" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/langtidsvarsel.html" />
+    <link id="radar" url="http://www.yr.no/sted/Norge/Aust-Agder/Grimstad/Grimstad/radar.html" />
+  </links>
+  <meta>
+    <lastupdate>2010-12-26T22:30:00</lastupdate>
+    <nextupdate>2010-12-27T05:15:00</nextupdate>
+  </meta>
+  <sun rise="2010-12-27T09:14:34" set="2010-12-27T15:38:50" />
+  <forecast>
+    <text>
+      <location name="Grimstad">
+        <time from="2010-12-26" to="2010-12-27">
+          <title>søndag og mandag</title>
+          <body>&lt;strong&gt;Stavern - Åna Sira:&lt;/strong&gt; Overveiende nordøstlig bris, fra om ettermiddagen til dels frisk bris 10, om kvelden liten kuling 12 vest for Lindesnes. For en stor del pent vær. &lt;strong&gt;Telemark og Agder:&lt;/strong&gt; Overveiende nordøstlig bris, fra om ettermiddagen til dels frisk bris 10 på kysten, om kvelden liten kuling 12 vest for Lindesnes. For en stor del pent vær.</body>
+        </time>
+        <time from="2010-12-28" to="2010-12-28">
+          <title>tirsdag</title>
+          <body>&lt;strong&gt;Agder:&lt;/strong&gt; Nordøstlig bris, frisk bris 10 på kysten, til dels liten kuling 12 vest for Oksøy. Mulighet for litt snø langs kysten, ellers skyet eller delvis skyet oppholdsvær.</body>
+        </time>
+        <time from="2010-12-29" to="2010-12-29">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Telemark og Agder:&lt;/strong&gt; Nordøstlig, senere skiftende bris. Stort sett oppholdsvær. Omtrent uendret temperatur.</body>
+        </time>
+        <time from="2010-12-30" to="2010-12-31">
+          <title>torsdag og fredag</title>
+          <body>&lt;strong&gt;Sør-Norge:&lt;/strong&gt; Natt til torsdag sør til sørvest kuling på kysten av Vestlandet, Trøndelag og i høyfjellet. Sludd og snø i vest og nord, til dels regn på kysten, ellers oppholdsvær. Fra utpå torsdag nordvestlig vind, til dels kuling på kysten  nord for Stad og i høyfjellet. Enkelte snøbyger nord på Vestlandet og i Trøndelag, regn på kysten. Ellers stort sett oppholdsvær. Stigende temperatur, stedvis betydelig stigende Østafjells. Fredag nordvestlig vind, stedvis kuling på kysten i vest og nord og i høyfjellet. Sludd- og snøbyger i vest og nord, til dels regn på kysten. Ellers oppholdsvær. Forholdsvis mildt.</body>
+        </time>
+        <time from="2011-01-01" to="2011-01-04">
+          <title>lørdag til tirsdag</title>
+          <body>&lt;strong&gt;Norge og Spitsbergen:&lt;/strong&gt; I Sør Norge ventes først i perioden for det meste nordvestlig vind, til dels kuling på kysten og i fjellet. Bygevær i vest og nord, ellers lite eller ingen nedbør. Forholdsvis mildt. Senere rolige vindforhold med lite eller ingen nedbør og litt lavere temperatur. Helt i slutten av perioden kan hende sørlig kuling og nedbør i vestlige områder.I Nord Norge enkelte snøbyger, vesentlig i ytre strøk. Nordvestlig periodevis kuling, øst i Finnmark av skiftende retning. Litt fallende temperatur. I slutten av perioden overgang til sørlig vind, til dels kuling utsatte steder. Litt nedbør på kysten i Nordland og Troms, ellers oppholdsvær. Litt lavere temperatur. På Spitsbergen stort sett vind mellom øst og sør, av og til kuling. Lite eller ingen nedbør. Stigende temperatur.</body>
+        </time>
+      </location>
+    </text>
+    <tabular>
+      <time from="2010-12-27T06:00:00" to="2010-12-27T12:00:00" period="1">
+        <!-- Valid from 2010-12-27T06:00:00 to 2010-12-27T12:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-27T06:00:00 -->
+        <windDirection deg="8.3" code="N" name="Nord" />
+        <windSpeed mps="3.1" name="Svak vind" />
+        <temperature unit="celcius" value="-12" />
+        <pressure unit="hPa" value="1020.0" />
+      </time>
+      <time from="2010-12-27T12:00:00" to="2010-12-27T18:00:00" period="2">
+        <!-- Valid from 2010-12-27T12:00:00 to 2010-12-27T18:00:00 -->
+        <symbol number="2" name="Lettskyet" var="02d" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-27T12:00:00 -->
+        <windDirection deg="14.0" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="3.7" name="Lett bris" />
+        <temperature unit="celcius" value="-11" />
+        <pressure unit="hPa" value="1021.6" />
+      </time>
+      <time from="2010-12-27T18:00:00" to="2010-12-28T00:00:00" period="3">
+        <!-- Valid from 2010-12-27T18:00:00 to 2010-12-28T00:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="mf/03n.77" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-27T18:00:00 -->
+        <windDirection deg="19.4" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="4.8" name="Lett bris" />
+        <temperature unit="celcius" value="-11" />
+        <pressure unit="hPa" value="1023.6" />
+      </time>
+      <time from="2010-12-28T00:00:00" to="2010-12-28T06:00:00" period="0">
+        <!-- Valid from 2010-12-28T00:00:00 to 2010-12-28T06:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="mf/03n.78" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-28T00:00:00 -->
+        <windDirection deg="20.3" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="6.0" name="Laber bris" />
+        <temperature unit="celcius" value="-10" />
+        <pressure unit="hPa" value="1026.0" />
+      </time>
+      <time from="2010-12-28T06:00:00" to="2010-12-28T12:00:00" period="1">
+        <!-- Valid from 2010-12-28T06:00:00 to 2010-12-28T12:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-28T06:00:00 -->
+        <windDirection deg="24.0" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celcius" value="-9" />
+        <pressure unit="hPa" value="1027.9" />
+      </time>
+      <time from="2010-12-28T12:00:00" to="2010-12-28T18:00:00" period="2">
+        <!-- Valid from 2010-12-28T12:00:00 to 2010-12-28T18:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-28T12:00:00 -->
+        <windDirection deg="22.1" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celcius" value="-7" />
+        <pressure unit="hPa" value="1029.8" />
+      </time>
+      <time from="2010-12-28T18:00:00" to="2010-12-29T00:00:00" period="3">
+        <!-- Valid from 2010-12-28T18:00:00 to 2010-12-29T00:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="mf/03n.81" />
+        <precipitation value="0.0" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-28T18:00:00 -->
+        <windDirection deg="16.5" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="4.9" name="Lett bris" />
+        <temperature unit="celcius" value="-6" />
+        <pressure unit="hPa" value="1031.0" />
+      </time>
+      <time from="2010-12-29T00:00:00" to="2010-12-29T06:00:00" period="0">
+        <!-- Valid from 2010-12-29T00:00:00 to 2010-12-29T06:00:00 -->
+        <symbol number="3" name="Delvis skyet" var="mf/03n.81" />
+        <precipitation value="0.3" minvalue="0.0" maxvalue="0.0" />
+        <!-- Valid at 2010-12-29T00:00:00 -->
+        <windDirection deg="12.2" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="4.3" name="Lett bris" />
+        <temperature unit="celcius" value="-6" />
+        <pressure unit="hPa" value="1032.1" />
+      </time>
+      <time from="2010-12-29T07:00:00" to="2010-12-29T13:00:00" period="1">
+        <!-- Valid from 2010-12-29T07:00:00 to 2010-12-29T13:00:00 -->
+        <symbol number="13" name="Snø" var="13" />
+        <precipitation value="0.6" />
+        <!-- Valid at 2010-12-29T07:00:00 -->
+        <windDirection deg="51.2" code="NE" name="Nordøst" />
+        <windSpeed mps="3.1" name="Svak vind" />
+        <temperature unit="celcius" value="-7" />
+        <pressure unit="hPa" value="1029.4" />
+      </time>
+      <time from="2010-12-29T13:00:00" to="2010-12-29T19:00:00" period="2">
+        <!-- Valid from 2010-12-29T13:00:00 to 2010-12-29T19:00:00 -->
+        <symbol number="13" name="Snø" var="13" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2010-12-29T13:00:00 -->
+        <windDirection deg="41.6" code="NE" name="Nordøst" />
+        <windSpeed mps="2.7" name="Svak vind" />
+        <temperature unit="celcius" value="-6" />
+        <pressure unit="hPa" value="1028.5" />
+      </time>
+      <time from="2010-12-29T19:00:00" to="2010-12-30T01:00:00" period="3">
+        <!-- Valid from 2010-12-29T19:00:00 to 2010-12-30T01:00:00 -->
+        <symbol number="4" name="Skyet" var="04" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-29T19:00:00 -->
+        <windDirection deg="5.6" code="N" name="Nord" />
+        <windSpeed mps="2.5" name="Svak vind" />
+        <temperature unit="celcius" value="-8" />
+        <pressure unit="hPa" value="1029.2" />
+      </time>
+      <time from="2010-12-30T01:00:00" to="2010-12-30T07:00:00" period="0">
+        <!-- Valid from 2010-12-30T01:00:00 to 2010-12-30T07:00:00 -->
+        <symbol number="4" name="Skyet" var="04" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-30T01:00:00 -->
+        <windDirection deg="33.3" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="2.3" name="Svak vind" />
+        <temperature unit="celcius" value="-9" />
+        <pressure unit="hPa" value="1026.4" />
+      </time>
+      <time from="2010-12-30T07:00:00" to="2010-12-30T13:00:00" period="1">
+        <!-- Valid from 2010-12-30T07:00:00 to 2010-12-30T13:00:00 -->
+        <symbol number="4" name="Skyet" var="04" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-30T07:00:00 -->
+        <windDirection deg="345.1" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="3.5" name="Lett bris" />
+        <temperature unit="celcius" value="-8" />
+        <pressure unit="hPa" value="1022.3" />
+      </time>
+      <time from="2010-12-30T13:00:00" to="2010-12-30T19:00:00" period="2">
+        <!-- Valid from 2010-12-30T13:00:00 to 2010-12-30T19:00:00 -->
+        <symbol number="4" name="Skyet" var="04" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-30T13:00:00 -->
+        <windDirection deg="292.8" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="3.5" name="Lett bris" />
+        <temperature unit="celcius" value="-3" />
+        <pressure unit="hPa" value="1019.2" />
+      </time>
+      <time from="2010-12-30T19:00:00" to="2010-12-31T01:00:00" period="3">
+        <!-- Valid from 2010-12-30T19:00:00 to 2010-12-31T01:00:00 -->
+        <symbol number="4" name="Skyet" var="04" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-30T19:00:00 -->
+        <windDirection deg="338.0" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="4.8" name="Lett bris" />
+        <temperature unit="celcius" value="-1" />
+        <pressure unit="hPa" value="1016.4" />
+      </time>
+      <time from="2010-12-31T01:00:00" to="2010-12-31T07:00:00" period="0">
+        <!-- Valid from 2010-12-31T01:00:00 to 2010-12-31T07:00:00 -->
+        <symbol number="1" name="Klarvær" var="mf/01n.88" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-31T01:00:00 -->
+        <windDirection deg="296.2" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="5.1" name="Lett bris" />
+        <temperature unit="celcius" value="-3" />
+        <pressure unit="hPa" value="1015.6" />
+      </time>
+      <time from="2010-12-31T07:00:00" to="2010-12-31T13:00:00" period="1">
+        <!-- Valid from 2010-12-31T07:00:00 to 2010-12-31T13:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-31T07:00:00 -->
+        <windDirection deg="325.0" code="NW" name="Nordvest" />
+        <windSpeed mps="5.7" name="Laber bris" />
+        <temperature unit="celcius" value="-2" />
+        <pressure unit="hPa" value="1012.3" />
+      </time>
+      <time from="2010-12-31T13:00:00" to="2010-12-31T19:00:00" period="2">
+        <!-- Valid from 2010-12-31T13:00:00 to 2010-12-31T19:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-31T13:00:00 -->
+        <windDirection deg="327.0" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="5.0" name="Lett bris" />
+        <temperature unit="celcius" value="1" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2010-12-31T19:00:00" to="2011-01-01T01:00:00" period="3">
+        <!-- Valid from 2010-12-31T19:00:00 to 2011-01-01T01:00:00 -->
+        <symbol number="1" name="Klarvær" var="mf/01n.91" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2010-12-31T19:00:00 -->
+        <windDirection deg="323.7" code="NW" name="Nordvest" />
+        <windSpeed mps="5.5" name="Laber bris" />
+        <temperature unit="celcius" value="-1" />
+        <pressure unit="hPa" value="1009.0" />
+      </time>
+      <time from="2011-01-01T13:00:00" to="2011-01-01T19:00:00" period="2">
+        <!-- Valid from 2011-01-01T13:00:00 to 2011-01-01T19:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2011-01-01T13:00:00 -->
+        <windDirection deg="304.3" code="NW" name="Nordvest" />
+        <windSpeed mps="4.8" name="Lett bris" />
+        <temperature unit="celcius" value="0" />
+        <pressure unit="hPa" value="1009.4" />
+      </time>
+      <time from="2011-01-02T13:00:00" to="2011-01-02T19:00:00" period="2">
+        <!-- Valid from 2011-01-02T13:00:00 to 2011-01-02T19:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2011-01-02T13:00:00 -->
+        <windDirection deg="27.8" code="NNE" name="Nord-nordøst" />
+        <windSpeed mps="4.5" name="Lett bris" />
+        <temperature unit="celcius" value="-3" />
+        <pressure unit="hPa" value="1011.7" />
+      </time>
+      <time from="2011-01-03T13:00:00" to="2011-01-03T19:00:00" period="2">
+        <!-- Valid from 2011-01-03T13:00:00 to 2011-01-03T19:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2011-01-03T13:00:00 -->
+        <windDirection deg="290.4" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="3.3" name="Svak vind" />
+        <temperature unit="celcius" value="-5" />
+        <pressure unit="hPa" value="1015.3" />
+      </time>
+      <time from="2011-01-04T13:00:00" to="2011-01-04T19:00:00" period="2">
+        <!-- Valid from 2011-01-04T13:00:00 to 2011-01-04T19:00:00 -->
+        <symbol number="1" name="Klarvær" var="01d" />
+        <precipitation value="0.0" />
+        <!-- Valid at 2011-01-04T13:00:00 -->
+        <windDirection deg="320.0" code="NW" name="Nordvest" />
+        <windSpeed mps="3.9" name="Lett bris" />
+        <temperature unit="celcius" value="-5" />
+        <pressure unit="hPa" value="1016.1" />
+      </time>
+    </tabular>
+  </forecast>
+</weatherdata>
