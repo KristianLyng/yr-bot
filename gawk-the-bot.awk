@@ -1,10 +1,18 @@
 #!/usr/bin/gawk -f
 
-# Downloads images from IRC
-# Allan Clark - <napta2k@gmail.com>
-# Core code written by Kristian Lyngstøl - <kristian@bohemians.org>
-# 2010-09-09
-# NOTE: No sanitization is performed on the URL before it's passed to the shell!
+# Do stuff on IRC!
+# Copyright (C) 2010 Kristian Lyngstøl - <kristian@bohemians.org>
+# 
+# Inspired somewhat by Allan Clark/napta2k@gmail.com (as in: he took my
+# munin-node-awk code to write an IRC bot and I took his IRC bot to write
+# my IRC bot)
+#
+# Todo:
+#  - Limit it to a channel
+#  - Support asking for more than a-Z (ie: numbers)
+#  - better stats
+#  - i18n
+#  - Goatse-ascii-art for kristiansand-people
 
 function mpr(content) {
         print content |& server

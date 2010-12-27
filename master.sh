@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Find a URL from "noreg.txt" that matches the supplied place. Fetch the
+# url and parse it with yr.awk
+#
+# Note the alnum-part.
+
 sted=$(echo "$1" | sed 's/[^a-Z]//')
 if [ "x$sted" == "x" ]; then
 	exit;

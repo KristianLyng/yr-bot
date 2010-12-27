@@ -1,5 +1,10 @@
 #!/usr/bin/gawk -f
 
+# Copyright 2010, Kristian Lyngstøl <kristian@bohemians.org>
+#
+# Simple parsing of yr.no xml-data (needs tweaking)
+
+
 /<name>/ && namn == "" {
 	gsub("</?name>","")
 	gsub("\r","")
