@@ -13,10 +13,11 @@ function mpr(content) {
 
 BEGIN {
         server="/inet/tcp/0/efnet.xs4all.nl/6667"
+	chan = "#kaoslan"
 
         mpr("NICK IamGawk")
         mpr("USER IamGawk IamGawk IamGawk :IamGawk") 
-	mpr("JOIN #kaoslan")
+	mpr("JOIN "chan)
         while ((server |& getline)>0) {
                 print "Got: " $0
                 if (/^PING/) {
@@ -27,8 +28,15 @@ BEGIN {
 
 			gsub("[^a-Z]","",sted);
 			cmd="./master.sh "sted
+			print "cmd: ",cmd
+			$0 = ""
 			cmd | getline;
-			print "PRIVMSG #kaoslan :", $0 |& server
+			if (length > 0)
+				msg = $0
+			else
+				msg = "Fant ikke stedet. (din nisse)"
+				
+			print "PRIVMSG "chan" :", msg |& server
 		}
         }
 }
