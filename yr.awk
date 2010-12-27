@@ -25,13 +25,20 @@
 }
 
 /<symbol/ {
-	gsub("(name=|\")","")
+	if ($3 ~ "\"$") 
+		hel=1;
+	else
+		hel=0
 	symb=$3
+	if (hel == 0) {
+		symb=$3" "$4
+	}
+	gsub("(name=|\")","",symb)
 }
 
 /<temperature/ && tab==1 {
 	gsub("(value=|\")","")
-	printf("%s: %s til %s: %s C (%s)\n",
-		namn, tidfra, tidtil, $3, symb)
+	printf("%s(%s): %s til %s: %s C (%s)\n",
+		namn,fylke, tidfra, tidtil, $3, symb)
 	exit
 }

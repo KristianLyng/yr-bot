@@ -31,19 +31,23 @@ BEGIN {
                 if (/^PING/) {
                         mpr("PONG " $2) 
                 }
-		if (/!awk /) {
+		if ($4 == ":!awk" && chan == $3) {
 			sted=$NF
 
-			gsub("[^a-Z]","",sted);
+			gsub("[^a-Z0-9]","",sted);
 			cmd="./master.sh "sted
 			print "cmd: ",cmd
+			print "length: " length(cmd)
 			$0 = ""
-			cmd | getline;
-			if (length > 0)
+			cmd | getline
+			print "ret: ",$0
+			gsub("Kristiansand","K-town");
+				
+			if (length($0) > 0)
 				msg = $0
 			else
-				msg = "Fant ikke stedet. (din nisse)"
-				
+				msg = "Fant ikke stedet. (sikkert et gudsforlatt sted)."
+			close(cmd)	
 			print "PRIVMSG "chan" :", msg |& server
 		}
         }
